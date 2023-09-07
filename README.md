@@ -1,23 +1,19 @@
 # ENPM 661 - Project 3 - Phase 2
 
-## Team Members
-* Abhijay (UID - 118592619)
-* Tharun Puthanveettil (UID - 119069516)
-
-## Dependencies
-
-* python3 interpreter
-* Python packages - numpy, time, matplotlib, copy, math, collections, queue, opencv, readline
-* ROS - noetic, turtlebot3(needs to be installed), gazebo_ros
+## Setup
+```
+pip3 install -r requirements.txt
+```
+- ROS - noetic, turtlebot3 (needs to be installed), gazebo_ros
 
 ## Execution
 
 * **Part 01 - A\* Solver** 
     
-    - To execute the program for this problem, navigate to the submission folder and use the following commands
+    - To execute the program for this problem, navigate to the project folder and use the following commands
         ```
-        cd <path_to_submission>/code/
-        python3 a_star_Abhijay_Tharun.py
+        cd <path_to_project>/code/
+        python3 main.py
         ```
 
     - Once you run the program, enter the start and goal states in the format shown below:
@@ -100,5 +96,4 @@
         Final node in the path : [549.42340336 100.48810098 251.1       ]
         Number of nodes explored : 593
         ```
-## Help
-For any assistance with executing the programs or questions related to them, please reach out to us at abhijay@umd.edu or tvpian@umd.edu.
+

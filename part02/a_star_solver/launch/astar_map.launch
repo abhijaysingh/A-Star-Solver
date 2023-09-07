@@ -14,7 +14,7 @@
   </include>
 
   
-  <node pkg="a_star_solver" type="a_star_Abhijay_Tharun.py" name="a_star_solver" output="screen"></node>
+  <node pkg="a_star_solver" type="main.py" name="a_star_solver" output="screen"></node>
   
 
   <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />

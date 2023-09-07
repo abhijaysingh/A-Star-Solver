@@ -95,9 +95,4 @@ def main():
 
 
 if __name__ == "__main__":
-
-    """
-        Github link: https://github.com/abhijaysingh/ENPM661-Project-3/tree/phase-2
-    
-    """
     main()
