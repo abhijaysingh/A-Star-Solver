@@ -1,4 +1,4 @@
-# ENPM 661 - Project 3 - Phase 2
+# A* Solver for Turtlebot3 in ROS
 
 ## Setup
 ```
